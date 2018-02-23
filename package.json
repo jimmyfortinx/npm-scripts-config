@@ -1,0 +1,24 @@
+{
+  "name": "npm-scripts-config",
+  "version": "0.0.1",
+  "description": "npm-scripts-config can extract scripts from package.json inside a config file that can be shared between repositories.",
+  "main": "bin/npm-scripts-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyfortinx/npm-scripts-config.git"
+  },
+  "keywords": [
+    "npm",
+    "npm scripts",
+    "configuration file"
+  ],
+  "author": "Jimmy Fortin <jimmy.fortin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimmyfortinx/npm-scripts-config/issues"
+  },
+  "homepage": "https://github.com/jimmyfortinx/npm-scripts-config#readme"
+}
