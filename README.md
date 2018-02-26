@@ -11,7 +11,7 @@ $ npm install --save--dev npm-scripts-config
 
 # Usage
 
-`.scriptsrc` files will automatically used as the default configuration file and scripts defined in it could be used from the `package.json`'s scripts section.
+`.scriptsrc` files will be automatically used as the default configuration file and scripts defined in it could be used from the `package.json`'s scripts section.
 
 **package.json**
 
@@ -45,7 +45,7 @@ or
 yarn test
 ```
 
-## Extends a configuration from `node_modules`
+## Extend a configuration from `node_modules`
 
 If you want to reuse a shared configuration you can specify it using the `@extends` key.
 
