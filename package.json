@@ -1,6 +1,6 @@
 {
   "name": "npm-scripts-config",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "npm-scripts-config can extract scripts from package.json inside a config file that can be shared between repositories.",
   "main": "bin/npm-scripts-config.js",
   "bin": {
