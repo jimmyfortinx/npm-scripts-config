@@ -8,8 +8,11 @@ class ScriptRunner {
 
     run() {
         const cmd = this.scripts[args.getScriptName()];
+        const cmdWithArgs = cmd + args.getOtherArgsInline();
 
-        execSh(cmd + args.getOtherArgsInline(), function (err) {
+        console.log(`npm-scripts-config: ${cmdWithArgs}`);
+
+        execSh(cmdWithArgs, function (err) {
             if (err) {
                 process.exit(err.code);
             }

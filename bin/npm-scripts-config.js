@@ -2,7 +2,11 @@
 const configLoader = require("../config-loader");
 const ScriptRunner = require("../script-runner");
 
-const config = configLoader.load();
-
-const runner = new ScriptRunner(config);
-runner.run();
+configLoader.load()
+    .then((config) => {
+        const runner = new ScriptRunner(config);
+        runner.run();
+    })
+    .catch((error) => {
+        console.error(error);
+    });
